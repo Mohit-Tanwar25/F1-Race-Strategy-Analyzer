@@ -4,11 +4,17 @@ A full-stack, production-grade Formula 1 telemetry and race-strategy analysis pl
 
 ---
 
-## 📸 Overview & Dashboard Preview
+## 📸 Screenshots & Telemetry Interface
 
-| Strategy Timeline & Gantt View | Lap Time Progression & SC Overlay |
-| :--- | :--- |
-| Stint compound allocation (Soft, Medium, Hard, Inter, Wet) across all drivers with pit stop diamonds and Safety Car / VSC intervals. | Interactive Plotly flying pace comparison with hover telemetry, zoom, and delta analysis. |
+### 1. Main Strategy Dashboard & Gantt Stint Timeline
+![F1 Strategy Analyzer Dashboard Overview](./docs/images/dashboard_overview.svg)
+*Figure 1: Full interactive dashboard displaying Round 1 Bahrain GP summary, tyre compound Gantt breakdown (Soft, Medium, Hard), linear tyre degradation regression model (+0.092s/lap), and the Strategy Effectiveness Score breakdown (92/100).*
+
+---
+
+### 2. Driver Head-to-Head & Cumulative Gap Telemetry
+![Driver Head-to-Head Comparison Telemetry](./docs/images/driver_comparison.svg)
+*Figure 2: Head-to-head comparison between Max Verstappen (VER) and Lando Norris (NOR) showing strategy component scores, tyre sequence variations, and continuous lap-by-lap cumulative gap progression.*
 
 ---
 

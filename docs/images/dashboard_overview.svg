@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 680" width="100%" height="100%" style="background:#0A0E17; font-family:'Inter', system-ui, sans-serif;">
+  <defs>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E10600" />
+      <stop offset="100%" stop-color="#FF3B30" />
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2BE" />
+      <stop offset="100%" stop-color="#009688" />
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#151B28" />
+      <stop offset="100%" stop-color="#10141E" />
+    </linearGradient>
+  </defs>
+
+  <!-- Navbar -->
+  <rect x="0" y="0" width="1200" height="60" fill="#0E131F" stroke="#232B3E" stroke-width="1"/>
+  <rect x="24" y="14" width="32" height="32" rx="6" fill="#E10600"/>
+  <path d="M32 23 L44 23 L44 26 L36 26 L36 28 L42 28 L42 31 L36 31 L36 37 L32 37 Z" fill="#FFFFFF"/>
+  <text x="66" y="35" fill="#FFFFFF" font-size="16" font-weight="900" letter-spacing="1">F1 STRATEGY <tspan fill="#E10600">ANALYZER</tspan></text>
+  <rect x="270" y="20" width="100" height="20" rx="4" fill="#1C2333" stroke="#2B354C"/>
+  <text x="280" y="34" fill="#8B949E" font-size="10" font-weight="700" letter-spacing="1">PRO TELEMETRY</text>
+
+  <!-- Nav Tabs -->
+  <rect x="420" y="14" width="160" height="32" rx="6" fill="#1E2638" stroke="#E10600" stroke-width="1.5"/>
+  <text x="440" y="35" fill="#FFFFFF" font-size="12" font-weight="700">RACE OVERVIEW</text>
+  <text x="610" y="35" fill="#8B949E" font-size="12" font-weight="600">HEAD-TO-HEAD</text>
+  <text x="740" y="35" fill="#8B949E" font-size="12" font-weight="600">UNDERCUTS</text>
+  <text x="860" y="35" fill="#8B949E" font-size="12" font-weight="600">INCIDENTS</text>
+
+  <!-- Status pill -->
+  <rect x="1030" y="17" width="145" height="26" rx="13" fill="#064E3B" stroke="#059669" stroke-width="1"/>
+  <circle cx="1046" cy="30" r="4" fill="#34D399"/>
+  <text x="1058" y="34" fill="#34D399" font-size="11" font-weight="700" font-family="'JetBrains Mono', monospace">FastAPI Online</text>
+
+  <!-- Filters Row -->
+  <rect x="24" y="75" width="1152" height="64" rx="10" fill="#151B28" stroke="#232B3E"/>
+  
+  <text x="40" y="96" fill="#8B949E" font-size="10" font-weight="700">SEASON</text>
+  <rect x="40" y="103" width="160" height="26" rx="5" fill="#0E131F" stroke="#232B3E"/>
+  <text x="50" y="120" fill="#FFFFFF" font-size="11" font-weight="700">2024 Season</text>
+
+  <text x="220" y="96" fill="#8B949E" font-size="10" font-weight="700">GRAND PRIX</text>
+  <rect x="220" y="103" width="220" height="26" rx="5" fill="#0E131F" stroke="#232B3E"/>
+  <text x="230" y="120" fill="#FFFFFF" font-size="11" font-weight="700">R1: Bahrain Grand Prix</text>
+
+  <text x="460" y="96" fill="#8B949E" font-size="10" font-weight="700">PRIMARY DRIVER</text>
+  <rect x="460" y="103" width="220" height="26" rx="5" fill="#0E131F" stroke="#232B3E"/>
+  <text x="470" y="120" fill="#FFFFFF" font-size="11" font-weight="700">VER - Max Verstappen (Red Bull)</text>
+
+  <text x="700" y="96" fill="#8B949E" font-size="10" font-weight="700">COMPARE DRIVER</text>
+  <rect x="700" y="103" width="220" height="26" rx="5" fill="#0E131F" stroke="#232B3E"/>
+  <text x="710" y="120" fill="#00D2BE" font-size="11" font-weight="700">NOR - Lando Norris (McLaren)</text>
+
+  <rect x="940" y="103" width="220" height="26" rx="5" fill="#1F2739" stroke="#2F3950"/>
+  <text x="985" y="120" fill="#E2E8F0" font-size="11" font-weight="700">⚡ SYNC TELEMETRY</text>
+
+  <!-- Race Summary Banner -->
+  <rect x="24" y="150" width="1152" height="90" rx="10" fill="#151B28" stroke="#232B3E"/>
+  <rect x="24" y="150" width="6" height="90" rx="3" fill="#E10600"/>
+  
+  <text x="42" y="172" fill="#E10600" font-size="10" font-weight="800" letter-spacing="1">ROUND 1 • 2024 FIA FORMULA ONE WORLD CHAMPIONSHIP</text>
+  <text x="42" y="196" fill="#FFFFFF" font-size="20" font-weight="900">Bahrain Grand Prix</text>
+  <text x="42" y="218" fill="#8B949E" font-size="11" font-weight="500">Bahrain International Circuit, Bahrain • 2024-03-02</text>
+
+  <!-- Metric Badges -->
+  <g transform="translate(680, 162)">
+    <rect x="0" y="0" width="110" height="66" rx="6" fill="#0E131F" stroke="#232B3E"/>
+    <text x="12" y="20" fill="#8B949E" font-size="9" font-weight="700">TOTAL LAPS</text>
+    <text x="12" y="46" fill="#FFFFFF" font-size="18" font-weight="900" font-family="'JetBrains Mono', monospace">57 Laps</text>
+  </g>
+  <g transform="translate(800, 162)">
+    <rect x="0" y="0" width="110" height="66" rx="6" fill="#0E131F" stroke="#232B3E"/>
+    <text x="12" y="20" fill="#F59E0B" font-size="9" font-weight="700">PIT STOPS</text>
+    <text x="12" y="46" fill="#FFFFFF" font-size="18" font-weight="900" font-family="'JetBrains Mono', monospace">20 Stops</text>
+  </g>
+  <g transform="translate(920, 162)">
+    <rect x="0" y="0" width="110" height="66" rx="6" fill="#0E131F" stroke="#232B3E"/>
+    <text x="12" y="20" fill="#EAB308" font-size="9" font-weight="700">NEUTRALIZATIONS</text>
+    <text x="12" y="46" fill="#FFFFFF" font-size="18" font-weight="900" font-family="'JetBrains Mono', monospace">2 SC/VSC</text>
+  </g>
+  <g transform="translate(1040, 162)">
+    <rect x="0" y="0" width="120" height="66" rx="6" fill="#0E131F" stroke="#232B3E"/>
+    <text x="12" y="20" fill="#A855F7" font-size="9" font-weight="700">FASTEST LAP</text>
+    <text x="12" y="42" fill="#D8B4FE" font-size="12" font-weight="900" font-family="'JetBrains Mono', monospace">VER 1:32.608</text>
+  </g>
+
+  <!-- Strategy Timeline Container -->
+  <rect x="24" y="252" width="1152" height="230" rx="10" fill="#151B28" stroke="#232B3E"/>
+  <circle cx="42" cy="274" r="4" fill="#E10600"/>
+  <text x="54" y="278" fill="#FFFFFF" font-size="13" font-weight="800" letter-spacing="1">TYRE STINT &amp; PIT STRATEGY TIMELINE</text>
+
+  <!-- Compounds Legend -->
+  <rect x="860" y="266" width="10" height="10" rx="2" fill="#FF1801"/>
+  <text x="876" y="275" fill="#CBD5E1" font-size="10" font-weight="600">Soft</text>
+  <rect x="915" y="266" width="10" height="10" rx="2" fill="#FFD800"/>
+  <text x="931" y="275" fill="#CBD5E1" font-size="10" font-weight="600">Medium</text>
+  <rect x="985" y="266" width="10" height="10" rx="2" fill="#FFFFFF"/>
+  <text x="1001" y="275" fill="#CBD5E1" font-size="10" font-weight="600">Hard</text>
+  <rect x="1045" y="266" width="10" height="10" rx="2" fill="#39B54A"/>
+  <text x="1061" y="275" fill="#CBD5E1" font-size="10" font-weight="600">Inter</text>
+
+  <!-- Gantt Grid Header -->
+  <line x1="120" y1="295" x2="1150" y2="295" stroke="#232B3E" stroke-width="1"/>
+  <text x="120" y="291" fill="#8B949E" font-size="9" font-family="'JetBrains Mono', monospace">L1</text>
+  <text x="326" y="291" fill="#8B949E" font-size="9" font-family="'JetBrains Mono', monospace">L12</text>
+  <text x="532" y="291" fill="#8B949E" font-size="9" font-family="'JetBrains Mono', monospace">L24</text>
+  <text x="738" y="291" fill="#8B949E" font-size="9" font-family="'JetBrains Mono', monospace">L36</text>
+  <text x="944" y="291" fill="#8B949E" font-size="9" font-family="'JetBrains Mono', monospace">L48</text>
+  <text x="1120" y="291" fill="#8B949E" font-size="9" font-family="'JetBrains Mono', monospace">L57</text>
+
+  <!-- SC vertical band -->
+  <rect x="420" y="295" width="60" height="175" fill="rgba(234, 179, 8, 0.12)" stroke="#EAB308" stroke-width="0.8" stroke-dasharray="2,2"/>
+  <text x="430" y="307" fill="#FACC15" font-size="8" font-weight="800">SC</text>
+
+  <!-- Drivers Bars -->
+  <!-- VER -->
+  <g transform="translate(40, 305)">
+    <rect x="0" y="0" width="70" height="20" rx="3" fill="#1E2638" stroke="#E10600" stroke-width="1"/>
+    <text x="12" y="14" fill="#FFFFFF" font-size="10" font-weight="800" font-family="'JetBrains Mono', monospace">VER</text>
+    <!-- Stint 1 Soft -->
+    <rect x="80" y="2" width="280" height="16" rx="2" fill="#FF1801"/>
+    <text x="210" y="14" fill="#FFFFFF" font-size="9" font-weight="800">SOFT (17L)</text>
+    <!-- Pit stop 1 -->
+    <polygon points="360,0 365,10 360,20 355,10" fill="#FFD800"/>
+    <!-- Stint 2 Hard -->
+    <rect x="360" y="2" width="310" height="16" rx="2" fill="#FFFFFF"/>
+    <text x="505" y="14" fill="#10141E" font-size="9" font-weight="800">HARD (19L)</text>
+    <!-- Pit stop 2 -->
+    <polygon points="670,0 675,10 670,20 665,10" fill="#FFD800"/>
+    <!-- Stint 3 Soft -->
+    <rect x="670" y="2" width="340" height="16" rx="2" fill="#FF1801"/>
+    <text x="830" y="14" fill="#FFFFFF" font-size="9" font-weight="800">SOFT (21L)</text>
+  </g>
+
+  <!-- NOR -->
+  <g transform="translate(40, 335)">
+    <rect x="0" y="0" width="70" height="20" rx="3" fill="#161D2B"/>
+    <text x="12" y="14" fill="#FF8000" font-size="10" font-weight="800" font-family="'JetBrains Mono', monospace">NOR</text>
+    <rect x="80" y="2" width="220" height="16" rx="2" fill="#FF1801"/>
+    <text x="180" y="14" fill="#FFFFFF" font-size="9" font-weight="800">SOFT (13L)</text>
+    <polygon points="300,0 305,10 300,20 295,10" fill="#FFD800"/>
+    <rect x="300" y="2" width="340" height="16" rx="2" fill="#FFFFFF"/>
+    <text x="460" y="14" fill="#10141E" font-size="9" font-weight="800">HARD (20L)</text>
+    <polygon points="640,0 645,10 640,20 635,10" fill="#FFD800"/>
+    <rect x="640" y="2" width="370" height="16" rx="2" fill="#FFFFFF"/>
+    <text x="810" y="14" fill="#10141E" font-size="9" font-weight="800">HARD (24L)</text>
+  </g>
+
+  <!-- HAM -->
+  <g transform="translate(40, 365)">
+    <rect x="0" y="0" width="70" height="20" rx="3" fill="#161D2B"/>
+    <text x="12" y="14" fill="#00D2BE" font-size="10" font-weight="800" font-family="'JetBrains Mono', monospace">HAM</text>
+    <rect x="80" y="2" width="200" height="16" rx="2" fill="#FF1801"/>
+    <text x="170" y="14" fill="#FFFFFF" font-size="9" font-weight="800">SOFT (12L)</text>
+    <polygon points="280,0 285,10 280,20 275,10" fill="#FFD800"/>
+    <rect x="280" y="2" width="370" height="16" rx="2" fill="#FFFFFF"/>
+    <text x="450" y="14" fill="#10141E" font-size="9" font-weight="800">HARD (22L)</text>
+    <polygon points="650,0 655,10 650,20 645,10" fill="#FFD800"/>
+    <rect x="650" y="2" width="360" height="16" rx="2" fill="#FFFFFF"/>
+    <text x="820" y="14" fill="#10141E" font-size="9" font-weight="800">HARD (23L)</text>
+  </g>
+
+  <!-- LEC -->
+  <g transform="translate(40, 395)">
+    <rect x="0" y="0" width="70" height="20" rx="3" fill="#161D2B"/>
+    <text x="12" y="14" fill="#E80020" font-size="10" font-weight="800" font-family="'JetBrains Mono', monospace">LEC</text>
+    <rect x="80" y="2" width="180" height="16" rx="2" fill="#FF1801"/>
+    <text x="160" y="14" fill="#FFFFFF" font-size="9" font-weight="800">SOFT (11L)</text>
+    <polygon points="260,0 265,10 260,20 255,10" fill="#FFD800"/>
+    <rect x="260" y="2" width="390" height="16" rx="2" fill="#FFFFFF"/>
+    <text x="445" y="14" fill="#10141E" font-size="9" font-weight="800">HARD (23L)</text>
+    <polygon points="650,0 655,10 650,20 645,10" fill="#FFD800"/>
+    <rect x="650" y="2" width="360" height="16" rx="2" fill="#FFFFFF"/>
+    <text x="820" y="14" fill="#10141E" font-size="9" font-weight="800">HARD (23L)</text>
+  </g>
+
+  <!-- Bottom Analytics Grid -->
+  <!-- Degradation Model Card -->
+  <g transform="translate(24, 495)">
+    <rect x="0" y="0" width="566" height="165" rx="10" fill="#151B28" stroke="#232B3E"/>
+    <circle cx="18" cy="22" r="4" fill="#F59E0B"/>
+    <text x="30" y="26" fill="#FFFFFF" font-size="12" font-weight="800">ESTIMATED TYRE DEGRADATION (VER - Stint 1)</text>
+    
+    <rect x="18" y="42" width="125" height="38" rx="4" fill="#0E131F" stroke="#232B3E"/>
+    <text x="26" y="55" fill="#8B949E" font-size="8" font-weight="700">DEG RATE</text>
+    <text x="26" y="73" fill="#F59E0B" font-size="14" font-weight="900" font-family="'JetBrains Mono', monospace">+0.092s/lap</text>
+
+    <rect x="150" y="42" width="125" height="38" rx="4" fill="#0E131F" stroke="#232B3E"/>
+    <text x="158" y="55" fill="#8B949E" font-size="8" font-weight="700">PACE LOSS</text>
+    <text x="158" y="73" fill="#EF4444" font-size="14" font-weight="900" font-family="'JetBrains Mono', monospace">+1.56s tot</text>
+
+    <rect x="282" y="42" width="125" height="38" rx="4" fill="#0E131F" stroke="#232B3E"/>
+    <text x="290" y="55" fill="#8B949E" font-size="8" font-weight="700">AVG PACE</text>
+    <text x="290" y="73" fill="#FFFFFF" font-size="14" font-weight="900" font-family="'JetBrains Mono', monospace">1:34.821</text>
+
+    <rect x="414" y="42" width="134" height="38" rx="4" fill="#0E131F" stroke="#232B3E"/>
+    <text x="422" y="55" fill="#8B949E" font-size="8" font-weight="700">CONFIDENCE</text>
+    <text x="422" y="73" fill="#38BDF8" font-size="14" font-weight="900" font-family="'JetBrains Mono', monospace">88% R²</text>
+
+    <!-- Mini chart slope line -->
+    <path d="M 30 140 Q 150 130 300 115 T 530 95" fill="none" stroke="#E10600" stroke-width="2.5" stroke-dasharray="4,4"/>
+    <circle cx="30" cy="140" r="3" fill="#FF1801"/>
+    <circle cx="150" cy="130" r="3" fill="#FF1801"/>
+    <circle cx="300" cy="115" r="3" fill="#FF1801"/>
+    <circle cx="430" cy="103" r="3" fill="#FF1801"/>
+    <circle cx="530" cy="95" r="3" fill="#FF1801"/>
+    <text x="30" y="158" fill="#64748B" font-size="9">* Empirical wear rate excluding SC &amp; in/out laps</text>
+  </g>
+
+  <!-- Strategy Score Card -->
+  <g transform="translate(610, 495)">
+    <rect x="0" y="0" width="566" height="165" rx="10" fill="#151B28" stroke="#232B3E"/>
+    <circle cx="18" cy="22" r="4" fill="#10B981"/>
+    <text x="30" y="26" fill="#FFFFFF" font-size="12" font-weight="800">STRATEGY EFFECTIVENESS SCORE</text>
+    <rect x="440" y="12" width="110" height="22" rx="11" fill="#064E3B" stroke="#059669"/>
+    <text x="455" y="27" fill="#34D399" font-size="10" font-weight="800">EXCEPTIONAL</text>
+
+    <text x="24" y="75" fill="#FFFFFF" font-size="34" font-weight="900" font-family="'JetBrains Mono', monospace">92<tspan fill="#64748B" font-size="16">/100</tspan></text>
+    <text x="24" y="93" fill="#94A3B8" font-size="10">VER: P1 Start → P1 Finish</text>
+
+    <!-- Component Progress Bars -->
+    <g transform="translate(160, 48)">
+      <text x="0" y="10" fill="#CBD5E1" font-size="9" font-weight="600">Pace Consistency &amp; Stint Efficiency</text>
+      <text x="350" y="10" fill="#38BDF8" font-size="9" font-weight="800">33.5 / 35</text>
+      <rect x="0" y="14" width="380" height="6" rx="3" fill="#0E131F"/>
+      <rect x="0" y="14" width="360" height="6" rx="3" fill="#38BDF8"/>
+
+      <text x="0" y="36" fill="#CBD5E1" font-size="9" font-weight="600">Track Position Gain &amp; Retention</text>
+      <text x="350" y="36" fill="#34D399" font-size="9" font-weight="800">28.0 / 30</text>
+      <rect x="0" y="40" width="380" height="6" rx="3" fill="#0E131F"/>
+      <rect x="0" y="40" width="350" height="6" rx="3" fill="#34D399"/>
+
+      <text x="0" y="62" fill="#CBD5E1" font-size="9" font-weight="600">Tyre Compound Management</text>
+      <text x="350" y="62" fill="#FBBF24" font-size="9" font-weight="800">18.0 / 20</text>
+      <rect x="0" y="66" width="380" height="6" rx="3" fill="#0E131F"/>
+      <rect x="0" y="66" width="340" height="6" rx="3" fill="#FBBF24"/>
+
+      <text x="0" y="88" fill="#CBD5E1" font-size="9" font-weight="600">Pit-Stop Delta &amp; Timing</text>
+      <text x="350" y="88" fill="#C084FC" font-size="9" font-weight="800">12.5 / 15</text>
+      <rect x="0" y="92" width="380" height="6" rx="3" fill="#0E131F"/>
+      <rect x="0" y="92" width="320" height="6" rx="3" fill="#C084FC"/>
+    </g>
+  </g>
+</svg>
