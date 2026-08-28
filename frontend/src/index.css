@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#0D1117] text-slate-100 antialiased font-sans min-h-screen selection:bg-f1-red selection:text-white;
+  }
+}
+
+/* Custom telemetry scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #111622;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #252D3D;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3B465C;
+}
+
+/* Glassmorphic card styling */
+.telemetry-card {
+  @apply bg-[#151B28] border border-[#232B3E] rounded-xl shadow-lg transition-all duration-200;
+}
+
+.telemetry-card:hover {
+  @apply border-[#333E57];
+}
+
+.f1-badge {
+  @apply px-2.5 py-0.5 rounded-full text-xs font-semibold uppercase tracking-wider inline-flex items-center gap-1.5;
+}
